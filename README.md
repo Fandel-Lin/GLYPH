@@ -2,6 +2,12 @@
 
 The source code for the paper: "Cross-domain Polygon Extraction from Historical Maps via Legend-guided Semantic Fusion" (Under Review)
 
+---
+
+This implementation was tested on a machine equipped with an Intel Xeon w9-3595X CPU at 2.00 GHz, 512 GB RAM at 4800 MT/s, and two NVIDIA A6000 GPUs; however, one NVIDIA A6000 GPU is sufficient. It does not require an external database. 
+
+---
+
 This implementation is an instantiation of GLYPH with three expert models. Descriptions of the main parameters are as follows.
 
 ```
