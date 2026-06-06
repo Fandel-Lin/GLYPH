@@ -1093,11 +1093,11 @@ def parse_args(argv=None):
 
     ap.add_argument("--preview_max_side", type=int, default=2000)
 
-    ap.add_argument("--morph_open", action="store_true")
+    ap.add_argument("--morph_open", action="store_true", default=True)
     ap.add_argument("--morph_kernel", type=int, default=11) 
     ap.add_argument("--morph_iters", type=int, default=1)
 
-    ap.add_argument("--vectorize_simplify", action="store_true")
+    ap.add_argument("--vectorize_simplify", action="store_true", default=True)
     ap.add_argument("--simplify_tol_px", type=float, default=8.0)
     ap.add_argument("--min_poly_area_px", type=float, default=32.0)
     ap.add_argument("--max_hole_area_px", type=float, default=32.0)
