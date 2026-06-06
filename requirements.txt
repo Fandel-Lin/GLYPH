@@ -1,0 +1,7 @@
+numpy
+rasterio
+opencv-python
+torch
+shapely
+tqdm
+opencv-python-headless
